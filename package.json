@@ -1,0 +1,25 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "folium-heatmap-example",
+  "version": "0.0.1",
+  "description": "Showing a heatmap",
+  "scripts": {
+    "start": "bash installReqsAndStart.sh"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/folium-heatmap-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "glitch",
+    "python3",
+    "folium"
+  ]
+}
