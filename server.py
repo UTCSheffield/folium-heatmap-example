@@ -38,8 +38,8 @@ def index():
   
   m.fit_bounds(m.get_bounds(), padding=(30, 30))
   
-  folium.TileLayer('stamentoner').add_to(m)
-  folium.TileLayer('stamenwatercolor').add_to(m)
+  # folium.TileLayer('stamentoner').add_to(m)
+  # folium.TileLayer('stamenwatercolor').add_to(m)
   folium.TileLayer('cartodbpositron').add_to(m)
   folium.TileLayer('openstreetmap').add_to(m)
 
